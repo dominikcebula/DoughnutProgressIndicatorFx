@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import pl.dominikcebula.javafx.controls.*?>
+<BorderPane fx:controller="pl.dominikcebula.javafx.controls.DoughnutProgressIndicatorExample"
+            prefHeight="400.0" prefWidth="600.0"
+            xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <top>
+      <HBox spacing="10">
+         <VBox spacing="10">
+            <DoughnutProgressIndicator fx:id="doughnutProgressIndicator1" title="Progress 1"/>
+            <Slider fx:id="slider1" value="30"/>
+         </VBox>
+
+         <VBox spacing="10">
+            <DoughnutProgressIndicator fx:id="doughnutProgressIndicator2" title="Progress 2"/>
+            <Slider fx:id="slider2" value="60"/>
+         </VBox>
+
+         <VBox spacing="10">
+            <DoughnutProgressIndicator fx:id="doughnutProgressIndicator3" title="Progress 3"/>
+            <Slider fx:id="slider3" value="100"/>
+         </VBox>
+      </HBox>
+   </top>
+</BorderPane>

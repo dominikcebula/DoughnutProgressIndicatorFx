@@ -1,0 +1,25 @@
+DoughnutProgressIndicator Label#progress {
+    -fx-font: 28px "Serif";
+    -fx-translate-y: -25px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #5E5E5E;
+}
+
+DoughnutProgressIndicator Label#title {
+    -fx-font: 28px "Serif";
+    -fx-translate-y: 25px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #626262;
+}
+
+DoughnutProgressIndicator Arc#progress-done {
+   -fx-fill: #66AECC;
+}
+
+DoughnutProgressIndicator Arc#progress-left {
+   -fx-fill: #DCDCDC;
+}
+
+DoughnutProgressIndicator Arc#background {
+   -fx-fill: #F4F4F4;
+}
