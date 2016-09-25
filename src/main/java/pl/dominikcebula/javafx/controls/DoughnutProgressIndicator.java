@@ -10,12 +10,12 @@ import javafx.scene.shape.*;
 
 public class DoughnutProgressIndicator extends StackPane
 {
-   private static final int PREF_WIDTH = 200;
-   private static final int PREF_HEIGHT = 200;
+   private static final int PREF_WIDTH = 125;
+   private static final int PREF_HEIGHT = 125;
 
    private static final int MAX_PROGRESS_IN_ANGLES = 360;
    private static final int MAX_PROGRESS_IN_PERCENTAGE = 100;
-   private static final double THICK_RATIO = 1.2;
+   private static final double THICK_RATIO = 1.4;
 
    private IntegerProperty progress = new SimpleIntegerProperty();
    private StringProperty unit = new SimpleStringProperty("%");

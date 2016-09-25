@@ -1,13 +1,13 @@
 DoughnutProgressIndicator Label#progress {
-    -fx-font: 28px "Serif";
-    -fx-translate-y: -25px;
+    -fx-font: 20px "Serif";
+    -fx-translate-y: -15px;
     -fx-font-weight: bold;
     -fx-text-fill: #5E5E5E;
 }
 
 DoughnutProgressIndicator Label#title {
-    -fx-font: 28px "Serif";
-    -fx-translate-y: 25px;
+    -fx-font: 15px "Serif";
+    -fx-translate-y: 10px;
     -fx-font-weight: bold;
     -fx-text-fill: #626262;
 }
